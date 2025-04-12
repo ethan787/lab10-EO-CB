@@ -1,3 +1,6 @@
+#https://github.com/ethan787/lab10-EO-CB
+#Partner 1: Christen Borrero
+#Partner 2: Ethan Ortiz
 import unittest
 from calculator import *
 
@@ -39,7 +42,8 @@ class TestCalculator(unittest.TestCase):
     def test_logarithm(self): # 3 assertions
         self.assertEqual(logarithm(3,2),math.log(3,2))
         self.assertEqual(logarithm(2,10),math.log(2,10))
-        self.assertEqual(logarithm(0,3),math.log(0,3))
+        self.assertEqual(logarithm(1,3),math.log(1,3))
+
 
     def test_log_invalid_base(self): # 1 assertion
         with self.assertRaises(ValueError):
