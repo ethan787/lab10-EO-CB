@@ -1,3 +1,6 @@
+#https://github.com/ethan787/lab10-EO-CB
+#Partner 1: Christen Borrero
+#Partner 2: Ethan Ortiz
 """
 calculator.py
 - Defines functions used to create a simple calculator
@@ -15,8 +18,7 @@ def div(a,b):
         raise ZeroDivisionError
     return b/a
 def exp(a,b):
-
-import math
+    return a ** b
 
 def square_root(a):
     if a < 0:
